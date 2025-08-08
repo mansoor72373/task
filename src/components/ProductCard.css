@@ -45,7 +45,7 @@
 }
 
 .buy-btn {
-  background: #00bcd4; /* cyan */
+  background: #00bcd4;
   color: #ffffff;
   font-weight: 700;
   border-radius: 8px;
@@ -63,7 +63,6 @@
   margin-bottom: 6px;
 }
 
-/* Make both buttons same width */
 .action-row .action-btn {
   flex: 1 1 0;
 }

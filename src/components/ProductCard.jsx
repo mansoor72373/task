@@ -2,15 +2,6 @@ import React, { useMemo, useState } from "react";
 import { Link } from "react-router-dom";
 import "./ProductCard.css";
 
-/**
- * A reusable, responsive product card.
- *
- * Props:
- * - product: { id, title, name, image, price, inStock?, stock?, variants?, sizes?, options? }
- * - to: string | undefined - route for details page (e.g., `/product/1`)
- * - onAddToCart: (productWithSelection) => void
- * - className: string | undefined - extra class names for the outer wrapper column (not the card)
- */
 const ProductCard = ({
   product,
   to,
