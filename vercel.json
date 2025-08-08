@@ -3,6 +3,9 @@
   "builds": [{ "src": "package.json", "use": "@vercel/static-build" }],
   "routes": [
     { "src": "/static/(.*)", "dest": "/static/$1" },
+    { "src": "/favicon.ico", "dest": "/favicon.ico" },
+    { "src": "/robots.txt", "dest": "/robots.txt" },
+    { "src": "/asset-manifest.json", "dest": "/asset-manifest.json" },
     { "src": "/(.*)", "dest": "/index.html" }
   ]
 }
