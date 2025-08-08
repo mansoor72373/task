@@ -2,6 +2,7 @@
   "name": "ecommerce",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://mansoor72373.github.io/task",
   "dependencies": {
     "@reduxjs/toolkit": "^1.8.5",
     "@sendgrid/mail": "^8.1.5",
@@ -58,6 +59,8 @@
     "server": "node ./api/server.js",
     "client": "react-scripts --openssl-legacy-provider start",
     "build": "react-scripts --openssl-legacy-provider build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "test": "react-scripts eject",
     "eject": "react-scripts eject"
   },
